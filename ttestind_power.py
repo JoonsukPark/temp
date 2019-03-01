@@ -158,7 +158,6 @@ if __name__ == "__main__":
 
     Label(w, text="Power:").grid(row=row, sticky=W)
     power = Entry(w)
-    power.insert(0, 0)
     power.grid(row=row, column=1)
 
     row += 1
